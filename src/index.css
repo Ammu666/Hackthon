@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+ 
+}
+
+.toDoList{
+  overflow-x: hidden;
+  overflow-y: auto;    
+}
+
+.toDoList h1{
+  margin-top: 30px;
+  text-align: center;
+  
+}
+
+.toDoList p{
+  text-align: center;
+  margin-top: 7px;
+  font-weight: bold;
+  color:blueviolet;
+}
+
+.toDoList .main{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.toDoList .form-container{
+  width: 500px;
+  height: 240px;
+  background-color:teal;
+  margin: 20px auto;
+  padding: 20px;   
+}
+
+.toDoList .form-container .btn{
+  width: 100%;  
+  background-color:forestgreen
+}
+
+.toDoList .view-container{
+  width: 600px;    
+  background-color: #62b4eb;
+  margin: 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-btn{
+  color: red;
+  cursor: pointer;
+}
+
+.completed-btn{
+  color:#3015a6;
+  cursor:pointer;
+}
+
+tbody{
+  margin-top: 25px;
+
+}
